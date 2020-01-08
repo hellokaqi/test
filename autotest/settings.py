@@ -81,10 +81,12 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.mysql',  # 或者使用 mysql.connector.django
-        'NAME': 'test',
+        'NAME': 'autotest',
         'USER': 'root',
-        'PASSWORD': '111111',
-        'HOST':'localhost',
+        'PASSWORD': 'xlkTO45@123',
+        # 'USER': 'root',
+        # 'PASSWORD': '111111',  本地数据库
+        'HOST':'39.105.73.105',
         'PORT':'3306',
     }
 }
